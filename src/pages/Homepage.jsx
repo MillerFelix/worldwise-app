@@ -1,5 +1,12 @@
+import PageNav from "../components/PageNav";
+
 function Homepage() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <PageNav />
+      Home
+    </div>
+  );
 }
 
 export default Homepage;
